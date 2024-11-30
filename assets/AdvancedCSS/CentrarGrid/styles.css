@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 300px;
+    border: 1px solid #ccc;
+   }
+   .centered-element {
+    background-color: #f1f1f1;
+    padding: 20px;
+   }
+   

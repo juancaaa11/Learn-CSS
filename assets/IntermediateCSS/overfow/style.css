@@ -1,0 +1,93 @@
+.visible {
+    background-color: lightyellow;
+    width: 150px;
+    height: 150px;
+    overflow: visible; /*Contenido sale
+   del elemento y es completamente
+   visible.*/
+   }
+   
+   .scroll {
+    background-color: lightgreen;
+    width: 150px;
+    height: 150px;
+    overflow: scroll; /*Muestra una
+   barra de scroll (horizontal y
+   vertical) cuando los contenidos no
+   caben en el contenedor.*/
+   }
+
+   .hidden {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /*Contenido que
+   sale del contenedor padre se oculta y no se muestran barras de scroll. */
+}
+
+.auto {
+ background-color: lightgrey;
+ width: 150px;
+ height: 150px;
+ overflow: auto;
+}
+
+/*Ejemplo de overflow:hidden con
+floats*/
+.auto-img {
+ background-color: lightgrey;
+ overflow: hidden;
+}
+
+.auto-img img{
+    float: left;
+    max-height: 300px;
+    }
+
+    .buttonexit {
+        display: flex;
+        height: 3em;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        background-color: #eeeeee4b;
+        border-radius: 3px;
+        letter-spacing: 1px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+        border: none;
+        background: #fff;
+       }
+       
+       .buttonexit > svg {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 20px;
+        transition: all 0.4s ease-in;
+       }
+       
+       .buttonexit:hover > svg {
+        font-size: 1.2em;
+        transform: translateX(-5px);
+       }
+       
+       .buttonexit:hover {
+        box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+        transform: translateY(-2px);
+       }
+    
+       header{
+        background-color: black;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 15%;
+        
+       }
+    
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }

@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+    border: black solid 5px;
+   }
+   .flex-container > div {
+    color:#fff;
+    font-family:Verdana;
+    background-color: #4F81BD;
+    border: #385D8A solid 5px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+   }

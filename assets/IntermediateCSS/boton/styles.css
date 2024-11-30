@@ -1,0 +1,62 @@
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+   color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   .my-button:hover {
+    background-color: #45a049;
+   }
+   .my-button:active {
+    background-color: #3e8e41;
+   }
+
+   .buttonexit {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+   }
+   
+   .buttonexit > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .buttonexit:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .buttonexit:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+
+   header{
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 15%;
+    
+   }
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

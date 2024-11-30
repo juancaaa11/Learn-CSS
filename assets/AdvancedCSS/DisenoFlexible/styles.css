@@ -1,0 +1,12 @@
+body {
+    max-width: 900px; margin: 0 auto;}
+   h1 {
+    text-align: center; }
+   aside, section {
+    float: left;
+    padding: 0;
+    margin: 0; }
+   aside {
+   width: 25%; }
+   section {
+    width: 75%; }

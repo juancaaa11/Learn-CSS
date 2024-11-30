@@ -1,0 +1,13 @@
+.click:after {
+    content:"En pantalla grande";
+   }
+   @media (max-width: 1024px) {
+    .click:after {
+    content:"Tablet";
+    }
+   }
+   @media (max-width: 480px) {
+    .click:after {
+    content:"Movil";
+    }
+   }

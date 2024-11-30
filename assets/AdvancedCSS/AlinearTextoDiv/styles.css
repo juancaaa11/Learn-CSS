@@ -1,0 +1,12 @@
+div{
+    height: 200px; width: 200px;
+    background-color: #EEE;
+    display: inline-table;
+    width: 100%;
+   }
+   p{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+   }
+   

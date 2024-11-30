@@ -1,0 +1,31 @@
+#flex-p{
+    display: flex; }
+   #flex-p p{
+    margin: 10px; }
+   #flex-container{
+    display: flex;}
+   #flex-container div{
+    width: 300px;
+    height: 150px;
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #C0392B;
+   }
+   .float-container{
+    float: left;
+    box-sizing: border-box;
+   }
+   .float-container div{
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    background-color: #2980B9;
+    color: #FFF;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-family: Arial;}

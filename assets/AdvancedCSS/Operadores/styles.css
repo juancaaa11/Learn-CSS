@@ -1,0 +1,20 @@
+body {
+    background-color: red;
+    color: black;
+   }
+   /* En pantallas menores a 992px, el
+   color de fondo es azul*/
+   @media screen and (max-width: 992px) {
+    body {
+    background-color: blue;
+    color: white;
+    }
+   }
+   /* En pantallas inferiores a 600px, elcolor de fondo es verde oliva */
+@media screen and (max-width: 600px) {
+    body {
+    background-color: olive;
+    color: white;
+    }
+   }
+   
